@@ -327,13 +327,13 @@
   "resolved" "https://registry.npmjs.org/@mapbox/whoots-js/-/whoots-js-3.1.0.tgz"
   "version" "3.1.0"
 
-"@math.gl/web-mercator@^3.4.3":
-  "integrity" "sha512-wfT1ku2b0k9MmaesFev60PXCCqqDvCR9batcY99ob/nMRXcQ/F5yVChS07OIqjUJseK6+6Gep9iYXiflPyPR2Q=="
-  "resolved" "https://registry.npmjs.org/@math.gl/web-mercator/-/web-mercator-3.4.3.tgz"
-  "version" "3.4.3"
+"@math.gl/web-mercator@^3.5.5":
+  "integrity" "sha512-siWHLJGp9o8fDEM1t0Rby+JXftl6il0z3927liWGzkHqFftXPHY858ShPy45ThDU8q5lyCftg8aVgrv4nfD+Zw=="
+  "resolved" "https://registry.npmjs.org/@math.gl/web-mercator/-/web-mercator-3.5.6.tgz"
+  "version" "3.5.6"
   dependencies:
     "@babel/runtime" "^7.12.0"
-    "gl-matrix" "^3.0.0"
+    "gl-matrix" "~3.3.0"
 
 "@napi-rs/triples@1.0.3":
   "integrity" "sha512-jDJTpta+P4p1NZTFVLHJ/TLFVYVcOqv6l8xwOeBKNPMgY/zDYH/YH7SJbvrr/h1RcS9GzbPcLKGzpuK9cV56UA=="
@@ -1269,10 +1269,15 @@
   "resolved" "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
   "version" "6.0.1"
 
-"gl-matrix@^3.0.0", "gl-matrix@^3.2.1", "gl-matrix@^3.3.0":
+"gl-matrix@^3.2.1", "gl-matrix@^3.3.0":
   "integrity" "sha512-wcCp8vu8FT22BnvKVPjXa/ICBWRq/zjFfdofZy1WSpQZpphblv12/bOQLBC1rMM7SGOFS9ltVmKOHil5+Ml7gA=="
   "resolved" "https://registry.npmjs.org/gl-matrix/-/gl-matrix-3.4.3.tgz"
   "version" "3.4.3"
+
+"gl-matrix@~3.3.0":
+  "integrity" "sha512-COb7LDz+SXaHtl/h4LeaFcNdJdAQSDeVqjiIihSXNrkWObZLhDI4hIkZC11Aeqp7bcE72clzB0BnDXr2SmslRA=="
+  "resolved" "https://registry.npmjs.org/gl-matrix/-/gl-matrix-3.3.0.tgz"
+  "version" "3.3.0"
 
 "glob-parent@^5.1.2", "glob-parent@~5.1.0":
   "integrity" "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow=="
@@ -2341,10 +2346,10 @@
   dependencies:
     "prop-types" "15"
 
-"react-map-gl@^6.1.16":
-  "integrity" "sha512-d/4kFMMh2hDeZNeQOUm2wC1/as9q93EZiDmM5mGBx0LIch+9pTFgO6ZINIuUD9Zz4JqWGpthyjoKr3QKgrGiRA=="
-  "resolved" "https://registry.npmjs.org/react-map-gl/-/react-map-gl-6.1.16.tgz"
-  "version" "6.1.16"
+"react-map-gl@^6.1.17":
+  "integrity" "sha512-SKuMtvs7aQpHMJehf/GzUQnEhPWRIypTX7X2wVXGME2RBKdY0PnC1YTiy8W3aA4uwcolPvCCYB+ki3xal51ZXQ=="
+  "resolved" "https://registry.npmjs.org/react-map-gl/-/react-map-gl-6.1.17.tgz"
+  "version" "6.1.17"
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@types/geojson" "^7946.0.7"
@@ -2353,7 +2358,7 @@
     "mjolnir.js" "^2.5.0"
     "prop-types" "^15.7.2"
     "resize-observer-polyfill" "^1.5.1"
-    "viewport-mercator-project" "^7.0.3"
+    "viewport-mercator-project" "^7.0.4"
 
 "react-mapbox-gl@^5.1.1":
   "integrity" "sha512-8vGldFQf7pW8T5ZV2OOhwXoaBvfigB2F7dnhzaZ/bD5/KJzP9zprMbn0xMX95W3eqbKzGGHnwyD5DyTTwR6wGw=="
@@ -2835,12 +2840,12 @@
     "safe-buffer" "^5.1.2"
     "which-typed-array" "^1.1.2"
 
-"viewport-mercator-project@^7.0.3":
-  "integrity" "sha512-5nSgVK8jKTSKzOvsa8TSSd2IeQCpHfSNiBOOOMQLvzlxgWD0YoF4xRmyZio3GaLtKSE+50UB892X3R1SAMbaww=="
-  "resolved" "https://registry.npmjs.org/viewport-mercator-project/-/viewport-mercator-project-7.0.3.tgz"
-  "version" "7.0.3"
+"viewport-mercator-project@^7.0.4":
+  "integrity" "sha512-0jzpL6pIMocCKWg1C3mqi/N4UPgZC3FzwghEm1H+XsUo8hNZAyJc3QR7YqC816ibOR8aWT5pCsV+gCu8/BMJgg=="
+  "resolved" "https://registry.npmjs.org/viewport-mercator-project/-/viewport-mercator-project-7.0.4.tgz"
+  "version" "7.0.4"
   dependencies:
-    "@math.gl/web-mercator" "^3.4.3"
+    "@math.gl/web-mercator" "^3.5.5"
 
 "vm-browserify@1.1.2":
   "integrity" "sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ=="
